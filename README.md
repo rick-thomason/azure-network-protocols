@@ -20,7 +20,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create Resources (Create Resource Group w/ Windows 10 and Ubuntu Virtual Machine) with Microsoft Azure
+- Create Resources (Create Resource Group w/ Windows 10 and Ubuntu Virtual Machines) with Microsoft Azure
 - Use Remote Desktop to Connect to Windows 10 VM and Install Wireshark
 - Open Wireshark and Filter for IMCP Traffic
 - Ping Public Websites and Observe Traffic in Wireshark
