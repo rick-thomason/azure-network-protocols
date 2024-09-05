@@ -81,14 +81,24 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   ![image](https://github.com/user-attachments/assets/23d1b495-9f45-4576-a62a-f5743cc085cb)
 
 
-  <h3>Part 2: Observe ICMP Traffic</h3>
+<h3>Part 2: Observe ICMP Traffic</h3>
 
-  <h3>Part 3: Observe SSH Traffic</h3>
+1. Use Remote Desktop to connect to Windows 10 VM and use credentials to login
 
-  <h3>Part 4: Observe DHCP Traffic</h3>
+![image](https://github.com/user-attachments/assets/77778be9-bf05-4aef-a4c3-5ee9de982682)
 
-  <h3>Part 5: Observe DNS Traffic</h3>
 
-  <h3>Part 6: Observe RDP Traffic</h3>
+![image](https://github.com/user-attachments/assets/8fdf63f0-3ec2-48f3-a04c-f2715a5f0cdd)
+
+
+3. Within Windows 10 VM, Install Wireshark
+
+<h3>Part 3: Observe SSH Traffic</h3>
+
+<h3>Part 4: Observe DHCP Traffic</h3>
+
+<h3>Part 5: Observe DNS Traffic</h3>
+
+<h3>Part 6: Observe RDP Traffic</h3>
 
 
