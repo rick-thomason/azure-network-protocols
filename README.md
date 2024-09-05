@@ -55,3 +55,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
   ![image](https://github.com/user-attachments/assets/89ce06cf-5ca4-4bbb-a988-12171bc21f3e)
 
+3. Create Linux Virtual Machine (VM2)
+- 
+
