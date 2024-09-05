@@ -33,6 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 1. Create Resource Group
 
+[Screen Recording 2024-09-05 163142.zip](https://github.com/user-attachments/files/16899996/Screen.Recording.2024-09-05.163142.zip)
 
 
 2. Create Windows 10 Virtual Machine
