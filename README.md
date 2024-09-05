@@ -33,7 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 1. Create Resource Group
 
-![image](https://github.com/user-attachments/assets/0b938d33-1c31-41a1-8b18-55cfa34d4c26)
+  ![image](https://github.com/user-attachments/assets/0b938d33-1c31-41a1-8b18-55cfa34d4c26)
 
 2. Create Windows 10 Virtual Machine (VM1)
 - Select the previously created Resource Group and Region
@@ -56,5 +56,33 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   ![image](https://github.com/user-attachments/assets/89ce06cf-5ca4-4bbb-a988-12171bc21f3e)
 
 3. Create Linux Virtual Machine (VM2)
-- 
+- Select the previously created Resource Group and Region
+- Choose Ubuntu Server 24.04
+
+  ![image](https://github.com/user-attachments/assets/29021a84-a10d-4de6-92db-280187973771)
+
+- Select size for vcpus and memory again
+- Under Administrator Account/Authentication type check Password
+- Create a username and password
+
+  ![image](https://github.com/user-attachments/assets/6d21c12b-bde7-42d3-948c-f1962e2df4ce)
+
+- Click Next until getting to Networking tab
+- Select the same virtual network that was created for VM1
+
+  ![image](https://github.com/user-attachments/assets/47d205a9-3d00-4c8a-9326-9c715d78792b)
+
+- Click Review and Create
+- After validation passes click Create
+
+  <h3>Part 2: Observe ICMP Traffic</h3>
+
+  <h3>Part 3: Observe SSH Traffic</h3>
+
+  <h3>Part 4: Observe DHCP Traffic</h3>
+
+  <h3>Part 5: Observe DNS Traffic</h3>
+
+  <h3>Part 6: Observe RDP Traffic</h3>
+
 
