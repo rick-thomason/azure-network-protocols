@@ -91,14 +91,41 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/user-attachments/assets/8fdf63f0-3ec2-48f3-a04c-f2715a5f0cdd)
 
 
-3. Within Windows 10 VM, Install Wireshark
+2. Within Windows 10 VM, Install Wireshark
+  - Go to www.google.com and type in wireshark download to go to their website
+  - Click the version that matches your OS and download Wireshark
 
-<h3>Part 3: Observe SSH Traffic</h3>
+   ![image](https://github.com/user-attachments/assets/7db27453-3ee3-4f83-88f3-9aa2cd5ccd3e)
+     
+  - Open file explorer and navigate to downloads to install Wireshark
+  
+   ![image](https://github.com/user-attachments/assets/4941be4b-a9f4-4bc6-8752-d8dac62f7f73)
 
-<h3>Part 4: Observe DHCP Traffic</h3>
+3. Open Wireshark and filter for ICMP traffic only
 
-<h3>Part 5: Observe DNS Traffic</h3>
+![image](https://github.com/user-attachments/assets/45a635ad-f41a-4b03-8fed-b0a06cfc90c9)
 
-<h3>Part 6: Observe RDP Traffic</h3>
+4. Retrieve the private IP address of Ubuntu VM and attempt to ping from Windows VM from command line
+
+  ![image](https://github.com/user-attachments/assets/66478f8b-9f3a-4990-885b-059db7912c84)
+
+  - Observe the ping requests and replies within Wireshark
+
+  ![image](https://github.com/user-attachments/assets/56522d6f-6ae5-4097-888c-325e6253566c)
+
+<h3>Part 3: Configuring a Firewall (Network Security Group)</h3>
+
+1. Open Network Security Groups on Ubuntu VM and disable incoming ICMP traffic
+  -
+
+
+
+<h3>Part 4: Observe SSH Traffic</h3>
+
+<h3>Part 5: Observe DHCP Traffic</h3>
+
+<h3>Part 6: Observe DNS Traffic</h3>
+
+<h3>Part 7: Observe RDP Traffic</h3>
 
 
