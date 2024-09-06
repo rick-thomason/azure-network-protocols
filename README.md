@@ -154,8 +154,31 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Part 5: Observe DHCP Traffic</h3>
 
+1. Back in Wireshark, filter for DHCP traffic only
+2. From Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
+
+   ![image](https://github.com/user-attachments/assets/bb505c80-c7e4-4924-a2ae-eacb8ba74fc0)
+
+   - Observe the DCHP traffic appearing in Wireshark
+  
+   ![image](https://github.com/user-attachments/assets/37e4ceda-5fb2-41e9-94c4-6409a97ef887)
+
 <h3>Part 6: Observe DNS Traffic</h3>
 
+1. Back in Wireshark, filter for DNS traffic only
+2. From Windows 10 VM within the command line, use nslookup to see whtat google.com and disney.com IP addresses are
+
+   ![image](https://github.com/user-attachments/assets/7cd98ad2-c214-455d-b1c6-4d73c157eab6)
+
+  ![image](https://github.com/user-attachments/assets/47db1f84-cf44-4196-8e7a-b499c073c435)
+
 <h3>Part 7: Observe RDP Traffic</h3>
+
+1.Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
+
+  ![image](https://github.com/user-attachments/assets/9f5f0f97-7f11-4f72-9593-9e0bef5bdb60)
+
+  - Here we can see that there is non-stop spam of traffic because the RDP protocol is constantly showing you a live stream from one computer to another because traffic is always being         
+    transmitted
 
 
