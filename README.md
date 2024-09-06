@@ -179,6 +179,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   ![image](https://github.com/user-attachments/assets/9f5f0f97-7f11-4f72-9593-9e0bef5bdb60)
 
   - Here we can see that there is non-stop spam of traffic because the RDP protocol is constantly showing you a live stream from one computer to another because traffic is always being         
-    transmitted
+transmitted
 
 
