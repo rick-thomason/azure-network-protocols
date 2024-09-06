@@ -140,6 +140,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Part 4: Observe SSH Traffic</h3>
 
+1. Back in Wireshark, filter for SSH traffic
+2. From Windows 10 VM, "SSH into" your Ubuntu VM through either its private IP address or hostname(in my case VM2)
+
+  ![image](https://github.com/user-attachments/assets/b79810ee-b006-4824-97b8-9c5addd99398)
+
+  - Enter password that was created back in Azure
+  - Observe SSH traffic back in Wireshard
+
+  ![image](https://github.com/user-attachments/assets/52ce27bb-61e1-4681-a31f-447ce52c8b91)
+
+  - Exit SSH by typing "exit" and pressing Enter
+
 <h3>Part 5: Observe DHCP Traffic</h3>
 
 <h3>Part 6: Observe DNS Traffic</h3>
